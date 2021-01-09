@@ -1,5 +1,6 @@
 import './styles.css'
 import {ReactComponent as ImgHome} from './HomeImg.svg'
+import Footer from '../Footer'
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     );
 }
